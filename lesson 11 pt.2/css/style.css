@@ -1,0 +1,25 @@
+p{
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    background-color: aqua;
+}
+
+
+/* margin 4 parameters
+p{
+    margin: 100px 150px 60px 80px;
+}
+/* margin 1 parameter
+p{
+    margin: 100px;
+}
+    //margin 3 parametes
+p{
+    margin: 100px 150px 50px;
+}
+
+     */
+
+     
