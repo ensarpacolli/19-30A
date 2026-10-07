@@ -1,5 +1,5 @@
 
-/* RREGULLIMI KRYESOR */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     color: #333;
 }
 
-/* HEADER */
+
 header {
     background-color: #b22222;
     color: white;
@@ -25,7 +25,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* NAVIGATION */
+
 nav {
     background-color: #222;
     text-align: center;
@@ -44,7 +44,7 @@ nav a:hover {
     color: orange;
 }
 
-/* HOME */
+
 .home {
     background-color: #ffcc80;
     text-align: center;
@@ -61,20 +61,21 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-/* BUTTON */
+
 .btn {
     background-color: #b22222;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
 .btn:hover {
     background-color: #801818;
 }
 
-/* ABOUT US */
+
 .about {
     text-align: center;
     padding: 50px 20px;
@@ -92,7 +93,7 @@ nav a:hover {
     line-height: 1.6;
 }
 
-/* MENU */
+
 .menu {
     text-align: center;
     padding: 50px 20px;
@@ -104,7 +105,7 @@ nav a:hover {
     font-size: 30px;
 }
 
-/* BOXES */
+
 .container {
     display: flex;
     justify-content: center;
@@ -147,7 +148,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-/* BUTTONS */
+
 button {
     background-color: #b22222;
     color: white;
@@ -162,7 +163,7 @@ button:hover {
     background-color: #801818;
 }
 
-/* CONTACT */
+
 .contact {
     background-color: #eee;
     text-align: center;
@@ -214,11 +215,20 @@ button:hover {
     color: #b22222;
 }
 
-/* FOOTER */
-footer {
+
+.footer{
     background-color: #222;
     color: white;
     text-align: center;
     padding: 20px;
     line-height: 1.8;
+    margin-top: 50px;
+}
+
+.h2{
+    margin-left: 20px;
+}
+
+.para{
+    margin-left: 20px;
 }

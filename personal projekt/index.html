@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fast Food DRAGODANI</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Fast Food Dragodani</h1>
-        <p>SHije Qe Te Ben Te Kthehesh Perseri</p>
+        <p>Shije Qe Te Ben Te Kthehesh Perseri</p>
 
         <nav>
             <a href="#home">Home</a>
@@ -20,54 +22,78 @@
     </header>
 
     <section id="home" class="main">
-        <h2>Mir Se Vini </h2>
-        <p>Ushqim i Shishem Dhe Sherbim i Shpejt</p>
+        <h2 class="h2">Mir Se Vini </h2>
+        <br>
+        <p class="para">Ushqim i Shijshem dhe Sherbim i Shpejt</p>
+        <br>
         <a href="menu" class="btn">Shiko Menun</a>
     </section>
 
-    <section id="about" class="about" >
-         <h2>About US</h2>
-         <p>
+    <section id="about" class="about">
+        <h2>Rreth nesh</h2>
+        <p>
             Fast Food Dragodani eshte vendi ideal per te shijuar
             ushqim te fresket dhe te shishem
-         </p>   
-     </section>
+        </p>
+    </section>
 
-     <section id="menu" class="menu">
-         <h2>Menuja Jon</h2>
+    <section id="menu" class="menu">
+        <h2>Menu</h2>
 
-         <div class="container">
-            
+        <div class="container">
+
             <div class="box">
-                <img src="img.png" alt="hamburger">
+                <img src="./assets/img.png" alt="hamburger">
                 <p> Hamburger i Fresket Me Mish, Djath dhe Perime</p>
                 <h4>3.00$</h4>
                 <button>Porosit Tani</button>
-
             </div>
 
             <div class="box">
-                <img src="img1.png" alt="pizza">
+                <img src="./assets/img1.png" alt="pizza">
                 <p>Pizza e Pjekur Ne Furr Druri SHum e Shishme</p>
                 <h4>4.50$</h4>
                 <button>Porosit Tani</button>
-
             </div>
 
             <div class="box">
-                <img src="img2.png" alt="sendwiq">
+                <img src="./assets/img2.jpg" alt="sendwiq">
                 <p>Sendwiq me Pul,Kashkavall Sos i Bardh</p>
                 <h4>2.50$</h4>
                 <button>Porosit Tani</button>
-
             </div>
 
-         </div>
+            <section id="contact" class="contact">
+                <h2>Contact us</h2>
+                <p>na kontaktoni per me shum informata ose porosi</p>
 
-     </section>
+                <form>
+                    <label> Emri:</label>
+                    <input type="text" placeholder="shkruani emrin tuaj" required>
+
+                    <label> numri i telefonit:</label>
+                    <input type="tel" placeholder="shkruani numrin e telefonit" required>
+
+                    <label> shkruani mesazhin tuaj:</label>
+                    <textarea placeholder="shkruani mesazhin tuaj"></textarea>
+
+                    <button type="submit"> Dergo</button>
+                </form>
+
+                <p class="phone">telefoni: +383 44 123 456</p>
+
+            </section>
+            
+        </div>
+
+        <footer class="footer">
+                <p>© 2026 Fast Food Dragodani</p>
+                <p>Prishtine,Kosove</p>
+            </footer>
+
+    </section>
 
 
-
-    
 </body>
+
 </html>
